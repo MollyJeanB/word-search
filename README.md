@@ -8,6 +8,8 @@ Your task is to wire up the puzzle so that when a user types in the text input, 
 
 1) The yellow highlights should update on each keystroke, so if a user is typing the word "bear," when they type a "b" each "b" in the puzzle should be highlighted. When they add the "e," only valid "be" strings will be highlighted, and so on.
 
+Hint: The styled component `<PuzzleLetter>` is already set up to take an optional prop `isHighlighted`, a boolean. When `isHighlighted` is true, the background color of the element is set to pale yellow.
+
 3) Words can appear 
 	* horizontally (left to right)
 	* vertically (top to bottom)
