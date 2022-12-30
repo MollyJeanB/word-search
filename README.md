@@ -1,6 +1,6 @@
 # Word Search
 
-A JavaScript puzzle challenge written in React.
+A JavaScript puzzle challenge written in React. Available as a replit [here](https://replit.com/@MJB/word-search?v=1)
 
 ## The challenge
 
