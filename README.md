@@ -4,7 +4,7 @@ A JavaScript puzzle challenge written in React. Available as a replit [here](htt
 
 ## The challenge
 
-Your task is to wire up the puzzle so that when a user types in the text input, the corresponding string or strings are highlighted in yellow. Here are a few additional acceptance criteria and things to note:
+Your task is to wire up the puzzle in `src/App.js` so that when a user types in the text input, the corresponding string or strings are highlighted in yellow. Here are a few additional acceptance criteria and things to note:
 
 1) The yellow highlights should update on each keystroke, so if a user is typing the word "bear," when they type a "b" each "b" in the puzzle should be highlighted. When they add the "e," only valid "be" strings will be highlighted, and so on.
 

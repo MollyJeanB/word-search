@@ -1,8 +1,14 @@
+import { useEffect, useState } from "react";
 import { Input, Page, PuzzleLetter, PuzzleWrapper } from "./App.styles";
 import { generateLetterSet } from "./generateLetterSet";
 
 function App() {
-	const letters = generateLetterSet()
+	const [ letters, setLetters ] = useState([])
+
+	useEffect(() => {
+		setLetters( generateLetterSet() )
+	}, [])
+
   return (
     <Page>
 		<h1>Word Search</h1>
